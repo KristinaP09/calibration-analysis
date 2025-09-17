@@ -1,4 +1,4 @@
-# Enhanced experimental framework with statistical testing and core calibration implementations
+# Experimental framework with statistical testing and core calibration implementations
 import numpy as np
 import pandas as pd
 from sklearn.calibration import CalibratedClassifierCV
@@ -435,4 +435,5 @@ if __name__ == "__main__":
     
     print(f"Raw ECE: {evaluator.expected_calibration_error(y_test, raw_probs):.6f}")
     print(f"Platt ECE: {evaluator.expected_calibration_error(y_test, platt_probs):.6f}")
+
     print(f"Isotonic ECE: {evaluator.expected_calibration_error(y_test, isotonic_probs):.6f}")
