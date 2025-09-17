@@ -1,6 +1,6 @@
 # calibration-analysis
 
-Python Implementation for Uncertainty Quantification in Binary Classification Models: A Comprehensive Analysis of Post-Hoc Calibration Methods
+Python Implementation for Uncertainty Quantification in Binary Classification Models: A Comprehensive Analysis of Post-Hoc Calibration Methods (https://doi.org/10.5281/zenodo.17148270) 
 
 This repository contains a Python implementation for uncertainty quantification in binary classification models, focusing on post-hoc calibration methods. The implementation includes techniques such as Platt scaling and isotonic regression to improve the calibration of probabilistic predictions made by machine learning models.
 
